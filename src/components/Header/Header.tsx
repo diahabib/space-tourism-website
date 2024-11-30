@@ -1,9 +1,8 @@
 import { useState } from "react";
-import logo from "../../assets/shared/logo.svg";
-
+import logo from "/assets/shared/logo.svg";
 import "./style.css";
-import iconBurger from "../../assets/shared/icon-hamburger.svg";
-import iconClose from "../../assets/shared/icon-close.svg";
+import iconBurger from "/assets/shared/icon-hamburger.svg";
+import iconClose from "/assets/shared/icon-close.svg";
 import { Link, useLocation } from "react-router-dom";
 import useViewport from "../../hooks/useViewport";
 //import { useCartDialog, useAddToCartDialog } from "../../utils/context";
