@@ -1,0 +1,36 @@
+.crew-container {
+  color: #d0d6f9;
+  overflow: hidden;
+}
+
+hr {
+  margin-top: 28px;
+  border-color: #383b4b;
+  width: 85%;
+  border-width: 0.4;
+}
+
+@media screen and (min-width: 992px) {
+  hr {
+    width: 60%;
+  }
+}
+
+.crew-nav > .nav-item {
+  position: relative;
+  cursor: pointer;
+  z-index: 50;
+  opacity: 17.44%;
+}
+
+.crew-nav > .nav-item__active {
+  opacity: 100%;
+}
+
+.crew-info {
+  font-family: "Bellefair", sans-serif;
+}
+
+.crew-info > {
+  font-family: "Barlow", sans-serif;
+}

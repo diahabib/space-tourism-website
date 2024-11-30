@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/src/assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/src/assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/src/assets/fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/src/assets/fonts/Barlow/Barlow-Bold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bellefair";
+  src: url("/src/assets/fonts/Bellefair/Bellefair-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Appliquer une police par défaut */
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+}
+
+:root {
+  font-synthesis: none;
+  color: #ffffff;
+}

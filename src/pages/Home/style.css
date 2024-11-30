@@ -1,0 +1,55 @@
+/*.home-page {
+  background: url("../../assets/home/background-home-mobile.jpg") no-repeat
+    fixed;
+  background-size: cover;
+}
+*/
+
+h1 {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+h1,
+button {
+  font-family: "Bellefair", sans-serif;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.94rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*.home-page {
+    background: url("../../assets/home/background-home-tablet.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+  }*/
+  h1 {
+    font-size: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  /*  .home-page {
+    background: url("../../assets/home/background-home-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+*/
+  .container {
+    text-align: justify;
+  }
+  h1 {
+    font-size: 140px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+}

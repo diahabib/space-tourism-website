@@ -1,0 +1,40 @@
+.technology-container,
+.terminology {
+  color: #d0d6f9;
+}
+
+hr {
+  margin-top: 28px;
+  border-color: #383b4b;
+  width: 85%;
+  border-width: 0.4;
+}
+
+@media screen and (min-width: 992px) {
+  hr {
+    width: 60%;
+  }
+}
+
+.terminology {
+  font-size: 1rem;
+}
+
+.technology-nav > .nav-item {
+  position: relative;
+  cursor: pointer;
+  z-index: 100;
+  font-family: "Bellefair", sans-serif;
+  border: 1px solid #383b4b;
+  color: white;
+  opacity: 100%;
+}
+
+.technology-nav > .nav-item__active {
+  background-color: white;
+  color: black;
+}
+
+.technology-info > {
+  font-family: "Barlow", sans-serif;
+}
